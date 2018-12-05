@@ -20,7 +20,6 @@
     <div @click="append('0')" class="btn zero">0</div>
     <div @click="dot" class="btn">.</div>
     <div @click="equal" class="operator btn">=</div>
-
   </div>
 </template>
 
@@ -29,7 +28,7 @@ export default {
   data() {
     return {
       previous: null,
-      current: '123',
+      current: '0',
       operator: null,
       operatorClicked: false,
     }
